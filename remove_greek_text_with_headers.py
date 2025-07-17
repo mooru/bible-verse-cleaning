@@ -1,15 +1,18 @@
+"""Module for regular expression"""
+
 import re
 
+
 def convert_to_markdown(input_file, output_file):
-    verse_header_pattern = re.compile(r'^(\d+):(\d+)\s+a\.\s+(.+)$')
-    verse_subline_pattern = re.compile(r'^\s*([a-z])\.\s+(.+)$')
+    verse_header_pattern = re.compile(r"^(\d+):(\d+)\s+a\.\s+(.+)$")
+    verse_subline_pattern = re.compile(r"^\s*([a-z])\.\s+(.+)$")
 
     verses = {}
     current_verse_num = None
 
-    with open(input_file, 'r', encoding='utf-8') as f:
+    with open(input_file, "r", encoding="utf-8") as f:
         for line in f:
-            line = line.rstrip('\n')
+            line = line.rstrip("\n")
 
             # Check if this line is a new verse header with 'a.' line
             header_match = verse_header_pattern.match(line)
@@ -30,12 +33,13 @@ def convert_to_markdown(input_file, output_file):
 
             # If neither header nor subline, skip line
 
-    with open(output_file, 'w', encoding='utf-8') as f_out:
+    with open(output_file, "w", encoding="utf-8") as f_out:
         for vnum in sorted(verses, key=lambda x: int(x)):
             f_out.write(f"###### v{vnum}\n")
             for verse_line in verses[vnum]:
                 f_out.write(verse_line + "\n")
             f_out.write("\n")  # blank line after each verse
 
+
 # Example call:
-convert_to_markdown('bible.txt', 'output.md')
+convert_to_markdown("bible.txt", "output.md")
