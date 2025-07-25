@@ -42,4 +42,4 @@ def convert_to_markdown(input_file, output_file):
 
 
 # Example call:
-convert_to_markdown("bible.txt", "output.md")
+convert_to_markdown("Bible verse formatting/bible.txt", "Bible verse formatting/output.md")
