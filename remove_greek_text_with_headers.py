@@ -42,4 +42,4 @@ def convert_to_markdown(input_file, output_file):
 
 
 # Example call:
-convert_to_markdown("Bible verse formatting/Raw verses/Acts-10.txt", "Bible verse formatting/Cleaned verses/John-17.md")
+convert_to_markdown("Bible verse formatting/Raw verses/Acts-10.txt", "Bible verse formatting/Cleaned verses/Acts-10.md")
