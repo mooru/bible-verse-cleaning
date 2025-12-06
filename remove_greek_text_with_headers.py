@@ -43,6 +43,6 @@ def convert_to_markdown(input_file, output_file):
 
 # Example call:
 convert_to_markdown(
-    "Bible verse formatting/Raw verses/Luke-23b.txt",
-    "Bible verse formatting/Cleaned verses/Luke-23b.md",
+    "Bible verse formatting/Raw verses/Acts-16.txt",
+    "Bible verse formatting/Cleaned verses/Acts-16.md",
 )
