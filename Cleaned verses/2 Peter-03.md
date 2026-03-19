@@ -101,30 +101,4 @@ d. you may lose your own firm position
 a. but grow in grace and knowledge of our Lord and Saviour Jesus  
 c. [amen]
 
-###### v19
-a. promising to them freedom
-b. themselves being slaves of moral corruption
-c. because by what someone is defeated
-d. by that he has been made a slave of
-
-###### v20
-a. because if
-b. having escaped the defilements of the world
-c. by knowledge of [our] Lord and Saviour Jesus Christ
-d. and then again having become involved in them
-e. they are defeated
-f. the last things have become to them worse than the first
-
-###### v21
-a. indeed it was better for them
-b. not having known the Way of righteousness
-c. than for ones having known
-d. to turn back
-e. away from the sacred command taught to them
-
-###### v22
-a. to them has happened the (fact) of the true proverb
-b. (a) dog turns back to his own vomit
-c. and
-d. (a) washed sow to (the) rolling about of mud
 
