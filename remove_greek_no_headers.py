@@ -51,6 +51,6 @@ def clean_and_group(input_path, output_path):
 
 
 # Usage
-input_file = "Bible verse formatting/Raw verses/Jude.txt"
-output_file = "Bible verse formatting/Raw verses/Jude.md"
+input_file = "Bible verse formatting/bible.txt"
+output_file = "Bible verse formatting/output_no_headers.md"
 clean_and_group(input_file, output_file)
